@@ -58,3 +58,23 @@ for ($j = 3; $j <= $n; $j++) {
     }
 }
 ?>
+
+<h3>陣列</h3>
+
+<?php
+$a=['甲','乙','丙','丁'];
+
+
+for($i=0;$i<count($a);$i++){    
+   echo $a[$i];     
+}
+
+echo "<br>";
+
+foreach($a as $idx => $b){
+    echo $idx . "=>" . $b;
+    echo "<br>";
+}
+
+
+?>
