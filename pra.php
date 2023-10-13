@@ -11,7 +11,7 @@ if ($year % 4 == 0) {
         echo $year."是平年"
     }
 } else {
-    if($year%400==){
+    if($year%400==0){
         echo $year . "是平年";         
     }
    
